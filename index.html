@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  
+</head>
+<body>
+  <div class="container">
+
+    <div class="logo-container box">
+      <img src="images/logo.svg" alt="Fylo Logo">
+      <div class="icons">
+        <div class="img-container"><img src="images/icon-document.svg" alt="Document Icon"></div>
+        <div class="img-container"><img src="images/icon-folder.svg" alt="Folder Icon"></div>
+        <div class="img-container"><img src="images/icon-upload.svg" alt="Folder Icon"></div>
+        
+      </div>
+    </div>
+
+    <div class="storage-container box">
+      <p>You’ve used <span>815 GB</span> of your storage</p>
+
+      <div class="progress-bar">
+        <progress value="815" max="1000"></progress>
+        <div class="progress-dot"></div>  <!-- The circular dot -->
+    </div>
+
+   <div class="progress-labels">
+        <span>0 GB</span>
+        <span>1000 GB</span>
+    </div>
+
+    <div class="tooltip">
+      <div class="gb-left">
+      <span>185</span>
+      <p> GB LEFT</p>
+    </div>
+  </div>
+</div>
+  
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Adekoya Temiloluwa</a>.
+  </div>
+</body>
+</html>
