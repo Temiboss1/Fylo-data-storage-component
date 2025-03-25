@@ -87,23 +87,16 @@ span {
     border: 2px solid hsl(229, 54%, 18%);
   }
   
-  /* Firefox  */
-  progress::-moz-progress-bar {
+ 
+  progress::-moz-progress-bar,  progress::-webkit-progress-value {
     background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
     border-radius: 10px;
   }
   
-  /* Chrome & Edge */
   progress::-webkit-progress-bar {
     background: transparent; 
   }
-  
-  progress::-webkit-progress-value {
-    background: linear-gradient(to right, #ff4d00, #ff78a0);
-    border-radius: 10px;
-  }
-  
-
+    
 
 .progress-labels {
     display: flex;
